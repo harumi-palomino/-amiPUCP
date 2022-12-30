@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'Fuente1';
+    src: url(../fuentes/fuente1.ttf);
+}
+@font-face {
+    font-family: 'Fuente2';
+    src: url(../fuentes/fuente2.ttf);
+}
+@font-face {
+    font-family: 'Fuente3';
+    src: url(../fuentes/fuente3.otf);
+}
+body{
+    margin: 0;
+}
+.cuerpo{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    max-width: 1581px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.contenedorLogo{
+    width: 200px;
+    height: 80%;
+    
+}
+.contenedorLogo a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorLogo a img{
+    height: 100%;
+}
+.contenedormenu{
+    width: 70%;
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 80px;
+    margin: 0 auto ;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+nav h1{
+    font-family: 'Fuente1';
+    color: rgb(45, 3, 3);
+    font-weight: 100;
+    font-size: 30px;
+}
+.menu a h1:hover{
+    transition: 50ms;
+    color: brown;
+}
+.contenedorUsuario{
+    width: auto;
+    height: 78%;
+    display: flex;
+}
+.usuario{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nombreUsuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+}
+.fotoCliente{
+    width: 140px;
+    height: 78%;
+}
+.fotoCliente img{
+    height: 100%;
+}
+.usuario h1{
+    color: rgb(10, 121, 10);
+}
+.usuario h1:hover{
+    color: rgb(20, 189, 65);
+    transition: 50ms;
+}
+/*---------------------------SECTION---------------------*/
+section{
+    width: auto;
+    background: url(../imagenes/fondoComedor.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.contenedor{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+}
+
+.parte1{
+    height: 20%;
+}
+.parte1 h1{
+    color:rgb(227, 223, 217);
+    font-family: 'Fuente2';
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+}
+.parte2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pasosDePedido{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+.pasosDePedido div{
+    max-width: 100px;
+    height: 14%;
+    background-color: black;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: 'Fuente1';
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pasosDePedido .seleccionado{
+    background-color: rgb(12, 12, 138);
+}
+.cards{
+    width: 85%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 18rem;
+    height: 53vh;
+    background-color: rgba(255, 255, 255);
+}
+.contenedorImagen{
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-cuerpo{
+    padding: 15px;
+}
+
+.card img{
+    width: 90%;
+    height: 90%;
+}
+.card h5{
+    font-family: 'Fuente3';
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+.card p{
+    font-family: 'Fuente3', Arial;
+    font-size: 15px;
+}
+.MaxCard{
+    width: 85%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.contendorMaxCard{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card-bigCuerpo{
+    width: 60vh;
+}
+.card-bigCuerpo h1{
+    font-family: 'Fuente1';
+    font-size: 50px;
+}
+.card-bigCuerpo h5{
+    font-family: 'Fuente3';
+}
+.card-bigCuerpo p{
+    font-family: 'Fuente3';
+}
+.card-bigCuerpo a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-bigImagen{
+    width: 60vh;
+    
+}
+.contendorMaxCard img{
+    width: 100%;
+    border-radius: 5px;
+    border-style: groove;
+}
+.contenedorButton{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 250px;
+    height: 100%;
+    background-color:transparent;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    font-family: monospace;
+}
+button:hover{
+    transition: 50ms;
+    background-color: black;
+    color: aliceblue;
+}
+.parte3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: end;
+}
+.parte3 a{
+    width: 10%;
+}
+.parte3 button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.parte3 button:hover{
+    background-color: brown;
+    color: black;
+}
